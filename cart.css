@@ -1,0 +1,40 @@
+.cart-container{
+    background:white;
+    padding:25px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+}
+
+.cart-item{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px;
+    border-bottom:1px solid #ddd;
+}
+
+.quantity{
+    width:70px;
+    padding:5px;
+}
+
+.remove-btn{
+    background:red;
+    color:white;
+    border:none;
+    padding:10px 15px;
+    border-radius:5px;
+}
+
+.checkout-btn{
+    background:green;
+    color:white;
+    border:none;
+    padding:12px 20px;
+    border-radius:5px;
+}
+
+.cart-summary{
+    margin-top:20px;
+    text-align:right;
+}
